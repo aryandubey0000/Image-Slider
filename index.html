@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Slider Heading at the top center -->
+    <h1 class="slider-heading">Image Slider</h1>
+
+    <!-- Main Slider Container -->
+    <div class="slider-container" id="sliderContainer">
+        <button class="arrow prev" onclick="prevSlide()">&#10094;</button>
+        
+        <!-- Slider wrapper containing all images -->
+        <div class="slider">
+            <div class="slide"><img src="DALL·E 2025-02-14 05.50.50 - A high-definition abstract digital artwork with a bright red color theme. The image features glowing neon red elements with a futuristic design, creat.webp"></div>
+            <div class="slide"><img src="DALL·E 2025-02-14 05.50.31 - A high-definition abstract digital artwork with a bright green color theme. The image features glowing neon green elements with a futuristic design, c.webp" alt="Image 2"></div>
+            <div class="slide"><img src="DALL·E 2025-02-14 05.50.57 - A high-definition abstract digital artwork with a bright blue color theme. The image features glowing neon blue elements with a futuristic design, cre.webp" alt="Image 3"></div>
+        </div>
+
+        <button class="arrow next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
